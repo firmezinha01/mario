@@ -1,0 +1,23 @@
+{
+  "name": "gigu-driver-pro",
+  "version": "1.0.0",
+  "description": "Aplicativo de rentabilidade, calculadora de corridas e simulador de overlay para motoristas (base StopClub/GigU)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "uber",
+    "99",
+    "indrive",
+    "stopclub",
+    "gigu",
+    "driver",
+    "calculator",
+    "overlay"
+  ],
+  "author": "firmezinha01",
+  "license": "MIT"
+}
