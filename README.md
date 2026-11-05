@@ -1,4 +1,4 @@
-# 🚗 Meu Driver Pro - Base GigU / StopClub
+# 🚗 Mario Driver Pro
 
 Aplicativo completo de cálculo de rentabilidade em tempo real, simulação de overlay flutuante, histórico financeiro e personalização da marca para motoristas de app (**Uber, 99, inDrive, Lyft, DiDi**).
 
@@ -11,11 +11,8 @@ Aplicativo completo de cálculo de rentabilidade em tempo real, simulação de o
 No terminal, dentro da pasta do projeto `app_customizado`:
 
 ```bash
-git init
 git add .
-git commit -m "feat: initial commit gigu driver pro app"
-git branch -M main
-git remote add origin https://github.com/firmezinha01/mario.git
+git commit -m "feat: rename branding to mario and prepare vercel supabase"
 git push -u origin main
 ```
 
@@ -44,7 +41,7 @@ Para aplicações hospedadas na **Vercel**, a melhor opção disparada é o **[S
 
 ### Como Configurar o Banco de Dados no Supabase:
 1. Crie um projeto gratuito no [Supabase](https://supabase.com).
-2. No menu lateral, acerte em **"SQL Editor"**.
+2. No menu lateral, acesse **"SQL Editor"**.
 3. Abra o arquivo [`supabase_schema.sql`](supabase_schema.sql) deste projeto, copie todo o conteúdo e cole no SQL Editor do Supabase.
 4. Clique em **"Run"**. Todas as tabelas (`drivers`, `trips`, `vehicle_expenses`) e regras de segurança serão criadas automaticamente!
 5. Copie sua `Project URL` e `anon key` em **Project Settings ➔ API** e cole no arquivo `js/supabase.js`.
@@ -66,7 +63,7 @@ node server.js
 ## 📂 Arquitetura do Projeto
 
 * `index.html`: Interface visual responsiva para celular e desktop.
-* `css/style.css`: Estilização e fontes originais extraídas do GigU (`Gigu.ttf`, `NunitoSans`, `Lato`).
+* `css/style.css`: Estilização e fontes originais (`Mario`, `NunitoSans`, `Lato`).
 * `js/calculator.js`: Motor de cálculo matemático de R$/km, R$/hora, custo de combustível e veredito.
 * `js/overlay.js`: Simulador do card flutuante sobreposto ao app da Uber/99.
 * `js/settings.js`: Gerenciador de preferências locais e temas.

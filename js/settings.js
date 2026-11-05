@@ -2,12 +2,12 @@
  * Gerenciamento de Configurações, Customizações e Histórico de Viagens
  */
 
-const STORAGE_KEY_SETTINGS = 'gigu_custom_settings';
-const STORAGE_KEY_TRIPS = 'gigu_custom_trips';
+const STORAGE_KEY_SETTINGS = 'mario_custom_settings';
+const STORAGE_KEY_TRIPS = 'mario_custom_trips';
 
 export const DEFAULT_SETTINGS = {
-  appName: 'Meu Driver Pro',
-  tagline: 'Base Inteligente GigU',
+  appName: 'Mario Driver Pro',
+  tagline: 'Base Inteligente Mario',
   brandColor: '#ff7024',
   driverName: 'Motorista Parceiro',
   vehicleType: 'car', // 'car' | 'moto'

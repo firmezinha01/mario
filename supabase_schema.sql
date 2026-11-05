@@ -1,5 +1,5 @@
 -- ========================================================
--- SCHEMA DO BANCO DE DADOS: GIGU DRIVER PRO / STOPCLUB BASE
+-- SCHEMA DO BANCO DE DADOS: MARIO DRIVER PRO
 -- Compatível com: Supabase / PostgreSQL (Recomendado para Vercel)
 -- ========================================================
 
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS public.drivers (
     min_gross_per_km NUMERIC(6, 2) DEFAULT 2.30,
     min_gross_per_hour NUMERIC(6, 2) DEFAULT 38.00,
     max_pickup_km NUMERIC(6, 2) DEFAULT 3.5,
-    app_brand_name VARCHAR(100) DEFAULT 'Meu Driver Pro',
+    app_brand_name VARCHAR(100) DEFAULT 'Mario Driver Pro',
     brand_color VARCHAR(10) DEFAULT '#ff7024',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()

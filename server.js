@@ -49,10 +49,10 @@ const server = http.createServer((req, res) => {
   if (pathname === '/api/info') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
-      appName: 'GigU Custom / Driver Pro',
+      appName: 'Mario Driver Pro',
       version: '1.0.0',
       status: 'online',
-      extractedBase: 'GigU (StopClub) 1.2.87',
+      extractedBase: 'Mario Engine',
       localIp: '192.168.15.4',
       port: 3000
     }));
@@ -103,7 +103,7 @@ const HOST = '0.0.0.0';
 
 server.listen(PORT, HOST, () => {
   console.log(`\n======================================================`);
-  console.log(`🚀 APP GIGU CUSTOM INICIADO COM SUCESSO!`);
+  console.log(`🚀 APP MARIO INICIADO COM SUCESSO!`);
   console.log(`======================================================`);
   console.log(`💻 Acesso no DESKTOP (PC):   http://localhost:${PORT}`);
   console.log(`📱 Acesso no CELULAR (Wi-Fi): http://192.168.15.4:${PORT}`);

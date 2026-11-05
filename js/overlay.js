@@ -1,5 +1,5 @@
 /**
- * Simulador do Overlay Flutuante do GigU
+ * Simulador do Overlay Flutuante do Mario
  * Mostra como a bolha flutuante reage e calcula por cima do app de motorista
  */
 
@@ -93,7 +93,7 @@ export class OverlaySimulator {
           </div>
         </div>
 
-        <!-- Veredito GigU -->
+        <!-- Veredito Mario -->
         <div class="mb-3 px-3 py-2 rounded-xl flex items-center justify-between" style="background-color: ${result.badge.bg}; border: 1px solid ${result.badge.border};">
           <div class="flex items-center gap-2">
             <span class="font-black text-sm" style="color: ${result.badge.color};">

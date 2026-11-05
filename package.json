@@ -1,7 +1,7 @@
 {
-  "name": "gigu-driver-pro",
+  "name": "mario-driver-pro",
   "version": "1.0.0",
-  "description": "Aplicativo de rentabilidade, calculadora de corridas e simulador de overlay para motoristas (base StopClub/GigU)",
+  "description": "Aplicativo de rentabilidade, calculadora de corridas e simulador de overlay para motoristas (base Mario)",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -12,8 +12,7 @@
     "uber",
     "99",
     "indrive",
-    "stopclub",
-    "gigu",
+    "mario",
     "driver",
     "calculator",
     "overlay"

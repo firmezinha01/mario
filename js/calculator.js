@@ -1,6 +1,6 @@
 /**
  * Motor de Cálculo de Rentabilidade do Motorista
- * Baseado no modelo de cálculo inteligente do GigU / StopClub
+ * Baseado no modelo de cálculo inteligente do Mario
  */
 
 export class RideCalculator {
@@ -40,7 +40,7 @@ export class RideCalculator {
     const netPerHour = (netProfit / totalMinutes) * 60;
     const marginPercent = farePrice > 0 ? (netProfit / farePrice) * 100 : 0;
 
-    // 4. Critérios de Avaliação (Veredito GigU)
+    // 4. Critérios de Avaliação (Veredito Mario)
     let verdict = 'BAD'; // 'GOOD' | 'MEDIUM' | 'BAD'
     let reasons = [];
 

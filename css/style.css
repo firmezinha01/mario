@@ -1,7 +1,7 @@
-/* Fontes originais extraídas do GigU */
+/* Fontes originais Mario */
 @font-face {
-  font-family: 'Gigu';
-  src: url('../assets/fonts/Gigu.ttf') format('truetype');
+  font-family: 'Mario';
+  src: url('../assets/fonts/Mario.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 }
 
 :root {
-  --primary-color: #ff7024; /* Laranja oficial GigU */
+  --primary-color: #ff7024; /* Laranja oficial Mario */
   --primary-hover: #e65d13;
   --bg-dark: #0f1218;
   --card-dark: #191e28;

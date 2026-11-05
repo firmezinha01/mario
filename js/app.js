@@ -1,5 +1,5 @@
 /**
- * Controlador Principal do Aplicativo GigU Custom
+ * Controlador Principal do Aplicativo Mario Driver Pro
  */
 
 import { RideCalculator } from './calculator.js';
@@ -244,7 +244,7 @@ function setupSettingsForm() {
 
     const newSettings = {
       ...settings,
-      appName: appNameInp.value || 'Meu Driver Pro',
+      appName: appNameInp.value || 'Mario Driver Pro',
       tagline: taglineInp.value || 'Drive Smart, Earn More',
       driverName: driverNameInp.value || 'Motorista Parceiro',
       brandColor: brandColorInp.value || '#ff7024',
@@ -275,7 +275,7 @@ function setupSettingsForm() {
 
   // Restaurar padrões
   document.getElementById('btn-reset-defaults')?.addEventListener('click', () => {
-    if (confirm('Restaurar configurações padrão do GigU?')) {
+    if (confirm('Restaurar configurações padrão do Mario?')) {
       SettingsManager.saveSettings(DEFAULT_SETTINGS);
       settings = DEFAULT_SETTINGS;
       calculator.updateConfig(settings);

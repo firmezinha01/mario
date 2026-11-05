@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title class="app-title-display">Meu Driver Pro - Base GigU</title>
+  <title class="app-title-display">Mario Driver Pro</title>
   <meta name="theme-color" content="#0f1218">
   <link rel="icon" type="image/png" href="assets/images/logo_circle.png">
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Estilos Customizados & Fontes Originais GigU -->
+  <!-- Estilos Customizados & Fontes Originais Mario -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-[#0f1218] text-slate-100 antialiased selection:bg-orange-500 selection:text-white pb-20 md:pb-6">
@@ -22,8 +22,8 @@
           <span class="absolute -bottom-1 -right-1 w-3.5 h-3.5 bg-emerald-500 border-2 border-[#141822] rounded-full pulse-indicator"></span>
         </div>
         <div>
-          <h1 class="text-base font-extrabold text-white leading-tight app-title-display">Meu Driver Pro</h1>
-          <p class="text-[11px] text-slate-400 font-medium app-tagline-display">Base Inteligente GigU</p>
+          <h1 class="text-base font-extrabold text-white leading-tight app-title-display">Mario Driver Pro</h1>
+          <p class="text-[11px] text-slate-400 font-medium app-tagline-display">Base Inteligente Mario</p>
         </div>
       </div>
 
@@ -136,7 +136,7 @@
           </button>
         </div>
 
-        <!-- Coluna de Resultados (Veredito GigU) -->
+        <!-- Coluna de Resultados (Veredito Mario) -->
         <div class="md:col-span-6 bg-[#191e28] border border-slate-800 p-4 rounded-2xl flex flex-col justify-between space-y-4">
           <div>
             <div class="text-[11px] font-semibold text-slate-400 uppercase mb-2">Veredito da Inteligência</div>
@@ -184,7 +184,7 @@
               <span class="w-2 h-2 rounded-full bg-orange-500"></span> Disparar Chamadas de Teste
             </h2>
             <p class="text-xs text-slate-400 mt-1">
-              Clique nos modelos abaixo para simular uma corrida tocando no seu celular com a bolha do GigU flutuando sobreposta.
+              Clique nos modelos abaixo para simular uma corrida tocando no seu celular com a bolha do Mario flutuando sobreposta.
             </p>
           </div>
 
@@ -194,7 +194,7 @@
 
           <div class="p-3 bg-slate-900/90 rounded-xl border border-slate-800 text-xs text-slate-400 space-y-1">
             <div class="font-bold text-slate-200">💡 Como isso funciona no app real?</div>
-            <p>O GigU utiliza o <code>AccessibilityService</code> do Android para detectar o pop-up da Uber/99 e sobrepõe essa janela flutuante em menos de 100 milissegundos.</p>
+            <p>O Mario utiliza o <code>AccessibilityService</code> do Android para detectar o pop-up da Uber/99 e sobrepõe essa janela flutuante em menos de 100 milissegundos.</p>
           </div>
         </div>
 
@@ -212,7 +212,7 @@
               </div>
             </div>
 
-            <!-- Alvo onde o Overlay do GigU aparece -->
+            <!-- Alvo onde o Overlay do Mario aparece -->
             <div id="floating-overlay-target" class="w-full z-10">
               <div class="text-center p-4 bg-slate-900/80 rounded-2xl border border-slate-800 text-xs text-slate-400">
                 Aguardando disparo de corrida... Toque em um botão ao lado!
@@ -259,15 +259,15 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label class="block text-xs font-semibold text-slate-300 mb-1">Nome do Seu App</label>
-              <input type="text" id="cfg-app-name" class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-bold text-sm focus:outline-none focus:border-orange-500">
+              <input type="text" id="cfg-app-name" value="Mario Driver Pro" class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-bold text-sm focus:outline-none focus:border-orange-500">
             </div>
             <div>
               <label class="block text-xs font-semibold text-slate-300 mb-1">Slogan / Subtítulo</label>
-              <input type="text" id="cfg-tagline" class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-bold text-sm focus:outline-none focus:border-orange-500">
+              <input type="text" id="cfg-tagline" value="Drive Smart, Earn More" class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-bold text-sm focus:outline-none focus:border-orange-500">
             </div>
             <div>
               <label class="block text-xs font-semibold text-slate-300 mb-1">Nome do Motorista</label>
-              <input type="text" id="cfg-driver-name" class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-bold text-sm focus:outline-none focus:border-orange-500">
+              <input type="text" id="cfg-driver-name" value="Motorista Parceiro" class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white font-bold text-sm focus:outline-none focus:border-orange-500">
             </div>
             <div>
               <label class="block text-xs font-semibold text-slate-300 mb-1">Cor Primária da Marca</label>
